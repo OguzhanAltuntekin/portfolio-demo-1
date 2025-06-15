@@ -1,0 +1,178 @@
+body {  
+    background-color: #888888;
+   
+    padding: 20px;
+}
+.baslık {
+    font-family: "Press Start 2P", system-ui;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px;
+    padding-right: 15px;
+    border: #7e7e7e 1px solid;
+    border-radius: 5px;
+    background-color: #7e7e7e;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.baslık:hover {
+    color: #ffcc00;
+    background-color: #787878;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.545);
+    scale: 1.05;
+}
+
+.baslık:active {
+    color: #ffcc00;
+    background-color: #787878;
+    box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.545);
+    scale: 0.9;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+    border: #787878 1px solid;
+    transition:all 0.3s ease-in-out;
+    
+
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+    margin: 5px;
+    list-style-type: none;
+}
+
+li {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    ul {
+        flex-direction: column;
+    }
+
+    li {
+        width: 100%;
+    }
+}
+
+li a:hover {
+    color: #ffcc00;
+    background-color: #787878;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.545);
+}
+
+li a:active {
+    color: #ffcc00;
+    background-color: #787878;
+    box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.545);
+}
+
+p {
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #FFFFE0;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 24px;
+    text-align: center;
+}
+
+.teamfortress {
+    width: 10%;
+    height: 10%;
+    display: flex; ;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.baslik2 {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
+    border: #787878 1px solid;
+    display: Block;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #7e7e7e;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+
+h6 {
+    position: fixed;
+    font-family: "Silkscreen", sans-serif;
+    bottom: 0;background-color: #222;
+    color: #4b4b4b;
+    text-align: center;
+    padding: 10px;
+    font-size: 10px;
+    position:relative; 
+    bottom: 0;
+    width: 100%;
+    border-radius:5px;
+    transition: all 0.3s ease-in-out;
+
+}
+
+aside {
+    width: 30%;
+    float: left;
+    padding: 15px;
+  } 
+
+section {
+    width: 38%;
+    float: left;
+    padding: 15px;
+  }
+
+  article {
+    width: 20%;
+    float: left;
+   ;
+    padding: 15px;
+    }
+
+    footer {
+        text-align: center;
+        display: block;
+        padding: 25px;
+        clear: both;
+       }
+
+ @media screen and (max-width: 600px) { 
+        aside, section, article {
+            width: 100%
+    
+}
+}
+
+.benimfotom {
+    border: none;
+}
+
+.benimfotom:hover {
+    color: #ffcc00;
+    scale: 1.1;
+}
+
+.benimfotom:active {
+    color: #ffcc00;
+    scale: 0.9;
+}
